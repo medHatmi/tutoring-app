@@ -1,0 +1,55 @@
+@media only screen and (max-width: 767px) {
+  .containerLogin {
+    background-color: white !important;
+  }
+  .loginNormal {
+    display: none;
+  }
+  .boxes {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftBoxText {
+    margin: auto;
+    text-align: center;
+    /* border: 3px solid green; */
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .boxes {
+    display: flex;
+    padding: 35px 60px 0px 60px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leftBox {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .rightBox {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .leftBoxText {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 35px 10px 10px 10px;
+  }
+
+  .logoImage {
+    width: 70px;
+    margin-bottom: 23px;
+    margin-top: 75px;
+  }
+  .loginResponsive {
+    display: none;
+  }
+}

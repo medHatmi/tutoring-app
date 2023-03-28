@@ -1,0 +1,83 @@
+.conversation {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 15px 20px;
+  cursor: pointer;
+  /* margin-top: 15px; */
+  left: 0;
+  /* right: 0; */
+}
+
+.conversations {
+  display: flex;
+  align-items: center;
+  /* padding: 10px 0px 10px 20px; */
+  cursor: pointer;
+  margin-top: 15px;
+  left: 0;
+  /* right: 0; */
+}
+
+.conversationsScroll {
+  overflow-y: scroll;
+  height: 110.3%;
+}
+
+.convborder {
+  border-bottom: 1px solid #e4e5e7;
+  /* margin-left: -1rem; */
+}
+
+.conversationRes {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.conversationResponsive {
+  display: none !important;
+}
+
+/* .conversation:hover {
+    background-color: rgb(245, 243, 243);
+  } */
+
+.conversationImg {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.conversationName {
+  font-weight: 500;
+}
+
+.backColorFocus:hover {
+  background-color: #F5F5F5 !important;
+}
+
+.backColorFocus:active {
+  background-color: #e5f8e6 !important;
+}
+
+@media screen and (max-width: 768px) {
+  /* .conversation {
+    display: none;
+  } */
+
+  .conversationsScroll {
+    display: none;
+  }
+
+  .cardHeight {
+    height: 81vh !important;
+  }
+
+  .conversationResponsive {
+    display: block !important;
+  }
+}
